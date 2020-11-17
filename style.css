@@ -1,10 +1,14 @@
-img{
+img {
   width: 100px;
 }
 
-body{
+body {
   text-align: center;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: "Courier New", Courier, monospace;
   background: #272822;
-  color: #F8F8F2;
+  color: #f8f8f2;
+}
+
+#webring-wrapper {
+  margin: 15px;
 }
