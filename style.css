@@ -12,3 +12,29 @@ body {
 #webring-wrapper {
   margin: 15px;
 }
+#signature{
+  stroke-dasharray: 791;
+  stroke-dashoffset: 791;
+  animation: sign 4s ease;
+  animation-fill-mode: forwards;
+}
+
+#arrow{
+  stroke-dasharray: 829;
+  stroke-dashoffset: 829;
+  animation: sign2 2s ease;
+  animation-fill-mode: forwards;
+    animation-delay: 4s;
+}
+
+@keyframes sign {
+  to{
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes sign2 {
+  to{
+    stroke-dashoffset: 0;
+  }
+}
